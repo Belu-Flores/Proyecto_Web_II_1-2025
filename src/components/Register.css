@@ -1,17 +1,18 @@
 :root {
-  --color-primary: #264653;
-  --color-secondary: #2a9d8f;
-  --color-accent: #e9c46a;
-  --color-highlight: #f4a261;
-  --color-background: #fefae0;
-
-  --color-success: #28a745;
-  --color-error: #dc3545;
+  --color-primary: #2c003e; 
+  --color-secondary: #5a189a; 
+  --color-accent: #b392ac; 
+  --color-highlight: #a30080; 
+  --color-background: #e0e0eb; 
+  --color-success: #28a745; 
+  --color-error: #dc3545; 
 }
 
 .register-page-container {
-  background-color: var(--color-primary);
-  color: var(--color-background);
+  background-color: var(
+    --color-primary
+  ); 
+  color: var(--color-background); 
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
   display: flex;
@@ -27,7 +28,9 @@
 }
 
 .register-page-container > div:nth-of-type(1) {
-  background-color: var(--color-secondary);
+  background-color: var(
+    --color-secondary
+  ); 
   max-width: 450px;
   width: 90%;
   padding: 45px;
@@ -50,7 +53,7 @@
 }
 
 .register-page-container h1 {
-  color: var(--color-highlight);
+  color: var(--color-highlight); 
   margin-bottom: 35px;
   font-size: 2.5em;
   font-weight: 700;
@@ -67,7 +70,7 @@
   display: block;
   margin-bottom: 10px;
   font-weight: 600;
-  color: var(--color-background);
+  color: var(--color-background); 
   font-size: 1.1em;
   letter-spacing: 0.5px;
 }
@@ -78,16 +81,16 @@
 .register-page-container form input[type="tel"] {
   width: calc(100% - 24px);
   padding: 14px 12px;
-  border: 2px solid var(--color-highlight);
+  border: 2px solid var(--color-highlight); 
   border-radius: 10px;
-  background-color: var(--color-primary);
-  color: var(--color-background);
+  background-color: var(--color-primary); 
+  color: var(--color-background); 
   font-size: 1.05em;
   transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .register-page-container form input::placeholder {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(224, 224, 235, 0.6);
 }
 
 .register-page-container form input[type="text"]:focus,
@@ -96,7 +99,7 @@
 .register-page-container form input[type="tel"]:focus {
   border-color: var(--color-accent);
   outline: none;
-  box-shadow: 0 0 0 4px rgba(233, 196, 106, 0.4);
+  box-shadow: 0 0 0 4px rgba(179, 146, 172, 0.4);
 }
 
 .register-page-container form button[type="submit"] {
@@ -115,7 +118,7 @@
 }
 
 .register-page-container form button[type="submit"]:hover {
-  background-color: #fce29d;
+  background-color: #cbb9c4;
   transform: translateY(-3px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
